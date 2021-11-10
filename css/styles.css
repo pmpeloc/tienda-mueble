@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Globales */
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header y Navegación */
+
+.nombre-sitio {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.nombre-sitio span {
+  color: #037bc0;
+}
+
+.contenedor-navegacion {
+  border-top: 1px solid #e1e1e1;
+}
+
+.navegacion {
+  padding: 20px 0;
+}
+
+/* Hero */
+
+.hero {
+  height: 550px;
+  background-image: url(../images/principal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
