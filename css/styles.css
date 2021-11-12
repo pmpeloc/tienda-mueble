@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-size: 62.5%; /* 1º Hack para que 1rem = 10px */
 }
 
 *,
@@ -10,6 +11,7 @@ html {
 
 body {
   font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem; /* 2º Hack para la base sea de 16px */
 }
 
 /* Globales */
@@ -20,13 +22,17 @@ h3 {
   font-family: 'Playfair Display', serif;
 }
 
+h3 {
+  font-size: 3rem;
+}
+
 a {
   text-decoration: none;
   color: #000000;
 }
 
 .contenedor {
-  max-width: 1200px;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
@@ -38,9 +44,10 @@ img {
 /* Header y Navegación */
 
 .nombre-sitio {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   text-align: center;
+  font-size: 4rem;
 }
 
 .nombre-sitio span {
@@ -48,11 +55,11 @@ img {
 }
 
 .contenedor-navegacion {
-  border-top: 1px solid #e1e1e1;
+  border-top: 0.1rem solid #e1e1e1;
 }
 
 .navegacion {
-  padding: 20px 0;
+  padding: 2rem 0;
   display: flex;
   justify-content: space-between;
 }
@@ -60,7 +67,7 @@ img {
 /* Hero */
 
 .hero {
-  height: 550px;
+  height: 55rem;
   background-image: url(../images/principal.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,18 +82,18 @@ img {
 .categoria a {
   text-align: center;
   display: block;
-  padding: 20px;
-  font-size: 20px;
+  padding: 2rem;
+  font-size: 2rem;
 }
 
 .categoria a:hover {
   background-color: #037bc0;
   color: #ffffff;
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 1rem;
 }
 
 .listado-categorias {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 2rem;
 }
