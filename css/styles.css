@@ -20,6 +20,10 @@ a {
   margin: 0 auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Header y Navegación */
 
 .nombre-sitio {
@@ -38,6 +42,8 @@ a {
 
 .navegacion {
   padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Hero */
@@ -47,4 +53,12 @@ a {
   background-image: url(../images/principal.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* Categorías */
+
+.listado-categorias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
