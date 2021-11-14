@@ -195,6 +195,13 @@ img {
   grid-column: 1 / 4;
 }
 
+.producto:nth-child(2) img,
+.producto:nth-child(3) img {
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
+}
+
 .producto:nth-child(3) {
   grid-column: 4 / 7;
 }
