@@ -265,3 +265,15 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
+
+.site-footer h3 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-menu a {
+  display: block;
+}
+
+.copyright {
+  margin-top: 5rem;
+}
