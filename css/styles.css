@@ -180,6 +180,15 @@ img {
 
 .producto:nth-child(1) {
   grid-column: 1 / 7;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+}
+
+.producto:nth-child(1) img {
+  height: 43rem;
+  width: 100%;
+  object-fit: cover;
 }
 
 .producto:nth-child(2) {
