@@ -51,11 +51,16 @@ img {
   display: block;
 }
 
+/* Utilidades */
+
+.text-center {
+  text-align: center;
+}
+
 /* Header y Navegación */
 
 .nombre-sitio {
   margin-top: 5rem;
-  text-align: center;
 }
 
 .nombre-sitio span {
@@ -86,10 +91,6 @@ img {
 
 .categorias {
   padding-top: 5rem; /* se puede combinar margin con padding */
-}
-
-.categorias h2 {
-  text-align: center;
 }
 
 .categoria a {
@@ -149,4 +150,35 @@ img {
   flex-basis: 50%; /* Modifica el ancho del flex */
   padding-left: 10rem;
   color: #ffffff;
+}
+
+/* Nuestros Productos */
+
+.contenido-principal {
+  padding-top: 5rem;
+}
+
+.producto {
+  background-color: #037bc0;
+}
+
+.texto-producto {
+  text-align: center;
+  color: #ffffff;
+}
+
+.texto-producto h3 {
+  margin: 0;
+}
+
+.texto-producto p {
+  margin: 0 0 0.5rem 0;
+}
+
+.texto-producto .precio {
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+
+.texto-producto a {
 }
