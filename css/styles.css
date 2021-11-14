@@ -12,6 +12,7 @@ html {
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 1.6rem; /* 2º Hack para la base sea de 16px */
+  line-height: 2; /* Separación entre los párrafos de un texto */
 }
 
 /* Globales */
@@ -20,6 +21,15 @@ h1,
 h2,
 h3 {
   font-family: 'Playfair Display', serif;
+  margin: 0 0 5rem 0;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
 }
 
 h3 {
@@ -37,7 +47,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  max-width: 100%; /* Imágenes responsive */
   display: block;
 }
 
@@ -45,9 +55,7 @@ img {
 
 .nombre-sitio {
   margin-top: 5rem;
-  margin-bottom: 5rem;
   text-align: center;
-  font-size: 4rem;
 }
 
 .nombre-sitio span {
@@ -71,9 +79,14 @@ img {
   background-image: url(../images/principal.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 /* Categorías */
+
+.categorias {
+  padding-top: 5rem; /* se puede combinar margin con padding */
+}
 
 .categorias h2 {
   text-align: center;
