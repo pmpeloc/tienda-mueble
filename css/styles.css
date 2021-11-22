@@ -146,16 +146,32 @@ img {
   font-size: 2rem;
 }
 
+.categoria {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .categoria {
+    margin-bottom: 0;
+  }
+}
+
+.categoria img {
+  width: 100%;
+}
+
 .categoria a:hover {
   background-color: #037bc0;
   color: #ffffff;
   border-bottom-right-radius: 1rem;
 }
 
-.listado-categorias {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+@media (min-width: 768px) {
+  .listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
 }
 
 /* Nosotros */
@@ -173,6 +189,7 @@ img {
   background-repeat: no-repeat;
   background-size: 100%, 120rem;
   background-position: left center;
+  margin-top: 5rem;
 }
 
 /* OPCIÓN GRID */
